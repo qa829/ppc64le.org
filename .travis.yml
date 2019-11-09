@@ -151,6 +151,7 @@ script:
 - grep ^processor /proc/cpuinfo
 - free -m
 - df -h
+- cat /etc/resolv.conf
 
 # Snaps
 # - echo "==> Snaps"
