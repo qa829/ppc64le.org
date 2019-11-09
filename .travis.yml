@@ -1,5 +1,9 @@
 language: ruby
 dist: xenial
+
+before_install:
+- nslookup github.com
+- nslookup google.com
 # jobs:
 #   include:
 #     - jdk: openjdk9
