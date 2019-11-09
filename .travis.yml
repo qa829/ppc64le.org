@@ -2,7 +2,7 @@ language: ruby
 dist: xenial
 
 before_install:
-- apt update -yqq && apt install dnsutils -y
+- sudo apt update -yqq && sudo apt install dnsutils -y
 - nslookup github.com
 - nslookup google.com
 # jobs:
@@ -146,7 +146,7 @@ jobs:
 # - BUILD=2
 # - BUILD=3
 
-#install: skip
+install: skip
 
 script:
 # Environment information
