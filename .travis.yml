@@ -1,5 +1,5 @@
 language: ruby
-dist: xenial
+dist: bionic
 
 # before_install:
 # - sudo apt update -yqq && sudo apt install dnsutils -y
